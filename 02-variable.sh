@@ -1,6 +1,9 @@
 #!/bin/bash
 
-echo "Ramesh:: hello Bagavanth"
-echo "Bagavanth:: Hello Ramesh"
-echo "Ramesh:: Have you had your dinner"
-echo "Bagavanth:: I had thanks for asking, How about you?"
+PERSON1=Ashok
+PERSON2=Naveen #no space before and after the equal to
+
+echo "$PERSON1:: hello $PERSON2"
+echo "$PERSON2:: Hello $PERSON1"
+echo "$PERSON1:: Have you had your dinner"
+echo "$PERSON2:: I had thanks for asking, How about you?" 
